@@ -1,0 +1,33 @@
+/* Universal */
+
+body {
+  background-color: #b9faff;
+  overflow: scroll;
+}
+
+/* Header */
+
+.header {
+  background-color: gray;
+  font-family: "Times New Roman", serif;
+  color: white;
+  height: 100px;
+  text-align: center;
+  padding-right: 150px;
+  word-spacing: 7px;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.pageLink {
+  color: white;
+}
+
+#logo {
+  float: left;
+  width: 150px;
+}
