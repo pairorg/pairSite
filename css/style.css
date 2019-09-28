@@ -1,5 +1,9 @@
 /* Universal */
 
+html {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
 body {
   background-color: #b9faff;
   overflow: scroll;
