@@ -1,6 +1,7 @@
 function Effects() {
   this.x = random(window.innerWidth);
-  this.y = random(-500, -50);
+  // this.y = random(-500, -50);
+  this.y = window.innerHeight/4;
   this.z = random(0, 20);
   this.len = map(this.z, 0, 20, 10, 20);
   this.yspeed = map(this.z, 0, 20, 1, 20);
@@ -11,7 +12,7 @@ function Effects() {
     this.yspeed = this.yspeed + grav;
 
     if (this.y > height) {
-      this.y = random(-200, -100);
+      this.y = window.innerHeight/4;
       this.yspeed = map(this.z, 0, 20, 4, 10);
     }
   }

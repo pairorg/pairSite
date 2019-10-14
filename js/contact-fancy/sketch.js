@@ -35,9 +35,10 @@ function draw() {
 }
 
 function basics() {
-  background(100);
+  noStroke();
+  background(0);
   rectMode(CORNER);
-  fill(200);
+  fill(100);
   rect(0, 0, w, h/4);
 }
 
@@ -57,7 +58,8 @@ function getLayoutBounds() {
 
 function texts() {
   // Header
-  fill(0);
+  noStroke();
+  fill(255);
   textAlign(CENTER);
   textSize(40);
   text("Contact Us", w/2, h/7);
