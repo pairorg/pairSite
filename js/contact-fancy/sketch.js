@@ -13,8 +13,14 @@ var mainTextSectSY;
 var mainTextSectFX;
 var mainTextSectFY;
 
+// Init Effects
+var effects = [];
+
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
+  for (var i = 0; i < 500; i++) {
+    effects[i] = new Effects();
+  }
 }
 
 function draw() {
@@ -22,6 +28,10 @@ function draw() {
   texts();
   getLayoutBounds();
   keepWindowSizeUpToDate();
+  for (var i = 0; i < effects.length; i++) {
+    effects[i].fall();
+    effects[i].show();
+  }
 }
 
 function basics() {
