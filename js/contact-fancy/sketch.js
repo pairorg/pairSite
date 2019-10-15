@@ -1,6 +1,3 @@
-var w = window.innerWidth;
-var h = window.innerHeight;
-
 // Init Variables For Top Section
 var topSectSX;
 var topSectSY;
@@ -17,7 +14,9 @@ var mainTextSectFY;
 var effects = [];
 
 function setup() {
-  createCanvas(window.screen.width, window.screen.height);
+  var cnv = createCanvas(windowWidth, windowHeight);
+  cnv.style('display', 'block');
+  background(255, 0, 200);
   for (var i = 0; i < 500; i++) {
     effects[i] = new Effects();
   }
@@ -65,7 +64,6 @@ function texts() {
   text("Contact Us", w/2, h/7);
 }
 
-function keepWindowSizeUpToDate() {
-  w = window.innerWidth;
-  h = window.innerHeight;
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
