@@ -1,0 +1,75 @@
+/* Universal */
+
+body {
+  background: url(../img/turq-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+}
+
+.paper-background{
+  background: url(../img/paper-background.jpg);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+/* Header */
+
+.header {
+  background: url(../img/grey-background.jpg);
+  font-family: "Times New Roman", serif;
+  color: white;
+  height: 100px;
+  text-align: center;
+  padding-right: 150px;
+  word-spacing: 7px;
+}
+
+.pageTitle {
+  text-align: center;
+  padding-right: 50px;
+  font-size: 45px;
+  color: white;
+    text-shadow: 3px 2px grey;
+}
+
+#logo {
+  float: left;
+  width: 150px;
+}
+
+/* Main Body */
+.paragraph-left  {
+  font-family: "Helvetica";
+  color: #4d4c4c;
+  text-align: left;
+  width: 700px;
+  padding-left: 50px;
+  font-size: 25px;
+}
+
+ .page-head {
+   font-size: 40px;
+   font-style: italic;
+   text-align: center;
+   text-decoration: underline;
+   color: black;
+ }
+
+ .paragraph-center {
+   text-align: center;
+   font-size: 25px;
+   margin-left: 200px;
+   margin-right: 200px;
+   font-family: "Helvetica";
+   color: #4d4c4c;
+ }
+
+.link-to {
+  color: red;
+}
+
+.image-of{
+  padding-left: 300px;
+}
