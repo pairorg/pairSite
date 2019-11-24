@@ -1,5 +1,9 @@
 /* Universal */
 
+html {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
 body {
   background: url(../img/turq-background.jpg);
   background-repeat: no-repeat;
